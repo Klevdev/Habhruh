@@ -1,0 +1,32 @@
+.container {
+    width: 500px;
+    display: grid;
+    place-items: center;
+}
+
+input {
+    min-width: 250px;
+    height: 2em;
+    border: 1px solid #333;
+    border-radius: 3px;
+}
+
+button,
+input[type='submit'],
+input[type='reset'],
+input[type='button'] {
+    width: 100px;
+    height: 2em;
+    border: 2px solid #6666FF;
+    border-radius: 3px;
+}
+
+:is(button,
+input[type='submit'],
+input[type='button']):hover {
+
+}
+
+.error {
+    color: red;
+}
